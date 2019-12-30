@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name: "러닝 워터"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/profile.png"
   bio: "즐겁게 개발 배우는 중"
   location: "South Korea"
   email:
