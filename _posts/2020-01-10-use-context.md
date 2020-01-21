@@ -31,7 +31,7 @@ export const context = React.createContext();
 ```js
 const contextProvider = ({ children }) => {
   return (
-    <context.Provider value={{ }}>
+    <context.Provider value={% raw %}{}{% endraw %}>
       {children}
     </context.Provider>
   );
@@ -46,7 +46,7 @@ export const countContext = React.createContext();
 const CountContextProvider = ({ children }) => {
   const [count, setCount] = useState(0);
   return (
-    <CountContext.Provider value={{ count, setCount }}>
+    <CountContext.Provider value={\{ count, setCount \}}>
       {children}
     </CountContext.Provider>
   );
