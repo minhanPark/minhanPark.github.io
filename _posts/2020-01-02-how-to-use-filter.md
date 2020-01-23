@@ -10,7 +10,7 @@ toc_label: "목차"
 categories:
   - google-analytics
 tags:
-  - 구글 애널리틱스 필터
+  - Google-Analytics
 ---
 
 구글 애널리틱스에서 필터가 무슨 역할을 하는 지, 또 어떻게 적용시키는 지에 대해서 알아보겠습니다.

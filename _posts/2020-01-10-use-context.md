@@ -10,7 +10,6 @@ toc_label: "목차"
 categories:
   - today-i-learned
 tags:
-  - 자바스크립트
   - javascript
   - React
 ---

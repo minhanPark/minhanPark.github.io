@@ -10,8 +10,7 @@ toc_label: "목차"
 categories:
   - google-analytics
 tags:
-  - 구글 애널리틱스
-  - 설치법
+  - Google-Analytics
 ---
 
 데이터로 세상을 바라보는 건 아주 좋은 일이기 때문에 구글 애널리틱스를 배우며  
