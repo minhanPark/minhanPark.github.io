@@ -45,7 +45,7 @@ if (null) {
   console.log("undefined");
 } else if (0) {
   console.log("0");
-} else if (0) {
+} else if ("") {
   console.log("");
 } else {
   console.log("Bye");
