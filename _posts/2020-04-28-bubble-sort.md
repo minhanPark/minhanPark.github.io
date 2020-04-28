@@ -47,9 +47,11 @@ function bubble(arr) {
   let result = arr.slice(); // 들어온 배열을 복사한다.
 
   for (let i = 0; i < result.length - 1; i++) {
-    for (let j = i + 1; j < result.length; j++) {
+    for (let j = 0; j < result.length - i; j++) {
       if (result[j] > result[j + 1]) {
-        //빈칸을 채워주세요.
+        let temp = result[j]; // 임시값을 저장할 temp를 만들어서 값의 위치를 바꾼다.
+        result[j] = result[j + 1];
+        result[j + 1] = temp;
       }
     }
   }
