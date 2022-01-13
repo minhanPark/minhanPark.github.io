@@ -45,8 +45,8 @@ const blob = new Blob([response.data], {
 이제 만들어진 Blob을 어떻게 활용할 수 있을까? 바로 다운로드가 가능한 url을 만들어서 dom에 연결해주면 된다.
 
 ```js
-const url = window.URL.createObjectURL(newBlob);
-console.log(url); // blob:xxxxxx-xxxxxxx-xxxx-xxx
+const blobUrl = window.URL.createObjectURL(newBlob);
+console.log(blobUrl); // blob:xxxxxx-xxxxxxx-xxxx-xxx
 ```
 
 URL.createObjectURL 메소드를 이용하면 Blob 객체를 가상의 url로 만들 수 있고, 이 url을 가지고 a 태그에 붙여주면 다운로드 가능하다.  
@@ -67,10 +67,11 @@ async downloadExcel(){
     const response = await getExcelFile()
     const blob = new Blob([response.data], {type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"});
     const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
+    const blobUrl = URL.createObjectURL(blob);
+    link.href = blobUrl;
     link.download = '파일이름.xlsx';
     link.click();
-	URL.revokeObjectURL(link);
+	  URL.revokeObjectURL(blobUrl);
 }
 ```
 
