@@ -17,6 +17,9 @@ tags:
 
 ## 해당 시리즈의 다른 편 확인하기
 
+- [json-server로 1분만에 rest api 서버만들기 1](https://minhanpark.github.io/%EC%8B%9C%EB%A6%AC%EC%A6%88/json-server-install/)
+- [json-server로 1분만에 rest api 서버만들기 3](https://minhanpark.github.io/%EC%8B%9C%EB%A6%AC%EC%A6%88/json-server-auth/)
+
 ## 소스 코드 보러 가기
 
 > [커밋 내역 확인하기](https://github.com/minhanPark/json-server-example/commit/358ef08788ff2c0ea8807e1712a9ab3221c7e03a)
